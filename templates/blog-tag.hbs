@@ -1,0 +1,19 @@
+{{> header}}
+
+<a href="/blog?from=back_from_post_top">&larr; back to Index</a>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h3 class="text-center u-vs">#{{tag}}</h3>
+    </div>
+</div>
+
+{{#each posts}}
+
+    {{> posts-list-item }}
+
+{{/each}}
+
+<!--<a href="/blog?from=back_from_post_bottom">&larr; back to Index</a>-->
+
+{{> footer}}

@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <p class="blog_list__date text-right color-gray">{{shortDate this.date}}</p>
+    </div>
+
+    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 blog_list">
+        <h3 class="blog_list__title"><a href="{{this.url}}">{{this.title}}</a></h3>
+        <p>
+            {{#each this.tags}}
+                <span class="label label-js"><a href="/blog/tags/{{this}}">{{this}}</a></span>
+            {{/each}}
+        </p>
+    </div>
+</div>

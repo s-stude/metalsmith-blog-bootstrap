@@ -1,0 +1,54 @@
+
+html, h1, h2, h3, h4, h5, h6, p,
+.label
+{
+    font-family: 'Roboto Slab' !important; 
+    font-weight: 300;
+}
+
+/* BOOTSTRAP OVERRIDES */
+
+a{
+    color: #4B77BE;
+}
+
+.label-js{
+    color: black;
+    background: #F5D76E;
+    display: inline-block;
+    margin: 2px 0;
+}
+
+/* End BOOTSTRAP OVERRIDES */
+
+.u-vs{
+    margin: 20px 0;
+}
+
+.jr-highlighted{
+    background: #F2F1EF;
+}
+
+.j-space{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px 0;
+}
+
+.color-gray{
+    color: gray;
+}
+
+.blog_list__date{
+    margin-top: 4px;
+}
+
+.blog_list__title{
+    margin: 0 auto;
+}
